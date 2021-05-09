@@ -52,13 +52,13 @@ function App() {
       <Form 
         inputText={inputText}
         todos={todos} 
-        setTodos={setTodos} 
+        setTodos={setTodos}
         setInputText={setInputText}
         setStatus={setStatus}
         />
       <TodoList 
-        filteredTodos={filteredTodos} 
-        setTodos={setTodos} 
+        filteredTodos={filteredTodos}
+        setTodos={setTodos}
         todos={todos}
         />
     </div>
