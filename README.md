@@ -1,8 +1,7 @@
-# phase-2-react-project-mode
-Building a Client-Side Application with React
+WELCOME TO THE TODO LIST SINGLE PAGE APPLICATION!
 
-Todo List Features:
 
+FEATURES:
     - Simple buttons
     - Local storage
     - Easy to use

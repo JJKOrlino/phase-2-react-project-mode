@@ -51,7 +51,7 @@ function App() {
       {/* rendering these being imported. setInputText is prop */}
       <Form 
         inputText={inputText}
-        todos={todos} 
+        todos={todos}
         setTodos={setTodos}
         setInputText={setInputText}
         setStatus={setStatus}
