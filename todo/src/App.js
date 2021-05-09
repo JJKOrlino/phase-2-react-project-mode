@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Flatiron's Todo List </h1>
+      <h1><center>Flatiron's Todo List</center></h1>
       {/* rendering these being imported. setInputText is prop */}
       <Form 
         inputText={inputText}
