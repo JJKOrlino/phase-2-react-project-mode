@@ -1,6 +1,5 @@
 import React, { useState,useEffect } from "react";
 import './App.css';
-//importing components
 import Form from './components/Form';
 import TodoList from "./components/TodoList";
 
@@ -48,19 +47,18 @@ function App() {
   return (
     <div className="App">
       <h1><center>Flatiron's Todo List</center></h1>
-      {/* rendering these being imported. setInputText is prop */}
-      <Form 
-        inputText={inputText}
-        todos={todos}
-        setTodos={setTodos}
-        setInputText={setInputText}
-        setStatus={setStatus}
-        />
-      <TodoList 
-        filteredTodos={filteredTodos}
-        setTodos={setTodos}
-        todos={todos}
-        />
+        <Form 
+          inputText={inputText}
+          todos={todos}
+          setTodos={setTodos}
+          setInputText={setInputText}
+          setStatus={setStatus}
+          />
+        <TodoList 
+          filteredTodos={filteredTodos}
+          setTodos={setTodos}
+          todos={todos}
+          />
     </div>
   );
 }
